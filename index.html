@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishaan</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="text-blue-100 font-sans text-sm bg-gradient-to-br from-purple-900 via-red-900 to-yellow-900 min-h-screen">
+    <nav class="bg-green-900 text-yellow-500 p-2 old-style-border">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-3xl font-bold text-red-600">Place where i live !!</h1>
+        <ul class="flex space-x-2">
+          <li><a href="#" class="hover:underline">Home</a></li>
+          <li><a href="#Places" class="hover:underline">PLaces</a></li>
+          <li><a href="#reviews" class="hover:underline">Reviews</a></li>
+          <li><a href="#about" class="hover:underline">About Me</a></li>
+          <li><a href="#faq" class="hover:underline">FAQ</a></li>
+        </ul>
+      </div>
+    </nav>
+
+<button id="backToTop"
+        onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+        class="hidden fixed bottom-4 left-4 bg-yellow-500 text-black px-3 py-2 rounded shadow-lg hover:bg-yellow-400 transition duration-300 ease-in-out">
+  ↑ Top
+</button>
+
+    <section class="container mx-auto px-4 py-12 text-center old-style-border mt-6 mb-10">
+      <h2 class="text-5xl font-bold text-red-600 mb-4">BIHAR</h2>
+      <p class="text-2xl">Some great places of the state where i live</p>
+      <img
+        src="https://i.pinimg.com/736x/30/11/7e/30117ecee25d9fa6b90c5e1f41b154b4.jpg"
+        class="mx-auto rounded shadow-lg w-60 h-80 object-cover border-4 border-cyan-300"
+      />
+    </section>
+
+    <section id="Places" class="container mx-auto px-4 py-12 text-center old-style-border mt-6 mb-10">
+      <h3 class="text-4xl font-bold text-red-600 mb-4">Places !!</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="product-card bg-green-700 p-4 rounded shadow-md old-style-border">
+          <img src="https://i.pinimg.com/736x/d4/0c/e3/d40ce388bbde6e0c4160433ddd132e74.jpg" alt="Sher shah suri tomb" class="rounded mb-2 w-full h-60 object-cover" />
+          <h4 class="text-2xl font-bold text-cyan-400">Sher shah suri tomb</h4>
+          <p class="italic">"The tomb stands in the middle of an lake"</p>
+        </div>
+        <div class="product-card bg-green-700 p-4 rounded shadow-md old-style-border">
+          <img src="https://i.pinimg.com/736x/40/45/d1/4045d19d3c12843fa8279e8a680f0782.jpg" alt="Mahabodhi temple" class="rounded mb-2 w-full h-60 object-cover" />
+          <h4 class="text-2xl font-bold text-cyan-400">Mahabodhi temple</h4>
+          <p class="italic">"The places where Buddha attained enlightenment"</p>
+        </div>
+        <div class="product-card bg-green-700 p-4 rounded shadow-md old-style-border">
+          <img src="https://i.pinimg.com/736x/e9/d8/b3/e9d8b34f2c60147299edd89082df5f65.jpg" alt="Nalanda university" class="rounded mb-2 w-full h-60 object-cover" />
+          <h4 class="text-2xl font-bold text-cyan-400">Nalanda university</h4>
+          <p class="italic">"Worlds first university"</p>
+        </div>
+        <div class="product-card bg-green-700 p-4 rounded shadow-md old-style-border">
+          <img src="c:\Users\viraj\Downloads\WhatsApp Image 2025-06-20 at 10.05.51 PM.jpeg" alt="Nalanda university" class="rounded mb-2 w-full h-60 object-cover" />
+          <h4 class="text-2xl font-bold text-cyan-400">Valmiki national park</h4>
+          <p class="italic">"Where Animlas and Birds live peacefully!!"</p>
+        </div>
+        <div class="product-card bg-green-700 p-4 rounded shadow-md old-style-border">
+          <img src="https://imgs.search.brave.com/gSTPIHk6quY7vh0DpPcs1T0YZxCnrpqE4-Ksr3m8_ic/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucGV4ZWxzLmNv/bS9waG90b3MvNjMw/NzIyNy9wZXhlbHMt/cGhvdG8tNjMwNzIy/Ny5qcGVnP2F1dG89/Y29tcHJlc3MmY3M9/dGlueXNyZ2Imdz0x/MjYwJmg9NzUwJmRw/cj0x" alt="Rajgir" class="rounded mb-2 w-full h-60 object-cover" />
+          <h4 class="text-2xl font-bold text-cyan-400">Rajgir</h4>
+          <p class="italic">"Town of history!"</p>
+        </div>
+        <div class="product-card bg-green-700 p-4 rounded shadow-md old-style-border">
+          <img src="https://i.pinimg.com/736x/2f/e3/05/2fe3056c4787555a417ac7db941d3508.jpg" alt="Ashoka's pillar" class="rounded mb-2 w-full h-60 object-cover" />
+          <h4 class="text-2xl font-bold text-cyan-400">Ashoka's pillar</h4>
+          <p class="italic">"Great symbol of architecture."</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews" class="bg-green-8000 text-black py-10 old-style-border mb-12">
+      <div class="container mx-auto px-4 text-center">
+        <h3 class="text-4xl text-white font-semibold mb-8 text-shadow-[0_35px_35px_rgb(0_0_0_/_0.25)]">Facts about these places !!</h3>
+        <div class="grid md:grid-cols-3 gap-4">
+          <blockquote class="bg-gray-800 text-blue-100 p-4 rounded shadow-md border border-blue-400">
+            "Its and Indo-islamic structure built in 1840 and its the only tomb standing on a lake." – Sher suri tomb
+          </blockquote>
+          <blockquote class="bg-gray-800 text-pink-200 p-4 rounded shadow-md border border-pink-400">
+            "Its one of the holiest places for buddhist, one of the oldest buddhist temple loacted in Bodh gaya. It was the place where lord buddha attains enlightenment its a UNESCO world heritage site." – Mahabodhi temple
+          </blockquote>
+          <blockquote class="bg-gray-800 text-green-200 p-4 rounded shadow-md border border-green-400">
+            "It was the hub and source of infinte knowledge, many students from abroad come to study here it was founded in 5th century CE but it was destroy by  Bakhtiyar Khilji in 1200 century CE." – Nalanda ruins
+          </blockquote>
+          <blockquote class="bg-gray-800 text-red-200 p-4 rounded shadow-md border border-red-400">
+            "The park is home of more than 50 species of mammals, 250 species of birds, 40 species of reptiles, and 3000 species of butterflies. The park is named after the sage Valmiki, who is believed to have written the epic Ramayana here." – Valmiki National park
+          </blockquote>
+          <blockquote class="bg-gray-800 text-yellow-200 p-4 rounded shadow-md border border-yellow-400">
+            "The city is a major pilgrimage site for Buddhists, Jains, and Hindus, It was the capiatl of many nig dynasty like the Pradyota dynasty the Brihadratha dynasty, and the Mauryan Empire." – Rajgir
+          </blockquote>
+          <blockquote class="bg-gray-800 text-orange-200 p-4 rounded shadow-md border border-orange-400">
+            "It was built by the great Ashoka in 3rd century, the pillar resembles those of the Greek Doric order. The pillar's historical significance is further highlighted by its connection to the life and teachings of the Buddha, making it a crucial site in Buddhist history." – Ashoka's Pillar
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container mx-auto px-4 py-12 text-center old-style-border mt-6 mb-10">
+      <h3 class="text-4xl font-bold text-red-600 mb-4">About Me</h3>
+      <p class="text-lg">I'm Ishaan, i'm from Bihar the state which has played a very crucial role in its past, many big and major dynasty rises from its soil and rule the world.  !!
+      <div class="mt-6 text-4xl font-bold text-yellow-300 tracking-wide">
+       Ruled period: <span id="hoursCounter">0</span>+
+      </div>
+    </section>
+
+  </section> 
+<section id="faq" class="container mx-auto px-4 py-12 text-center old-style-border mt-6 mb-10">
+  <h3 class="text-4xl font-bold text-red-600 mb-6">Frequently Asked Questions</h3>
+  <div class="space-y-4 max-w-2xl mx-auto text-left">
+    
+    <div class="border border-yellow-500 rounded">
+      <button class="w-full text-left px-4 py-3 font-semibold bg-green-800 text-yellow-300 focus:outline-none toggle-faq">
+        Is Bihar a tourist place?
+      </button>
+      <div class="hidden px-4 py-3 bg-green-900 text-blue-100">
+        Obviously yes, there are many places in Bihar you can visit
+      </div>
+    </div>
+
+    <div class="border border-yellow-500 rounded">
+      <button class="w-full text-left px-4 py-3 font-semibold bg-green-800 text-yellow-300 focus:outline-none toggle-faq">
+        Your favourite place in bihar?
+      </button>
+      <div class="hidden px-4 py-3 bg-green-900 text-blue-100">
+        Bodh gaya !!
+      </div>
+    </div>
+
+    <div class="border border-yellow-500 rounded">
+      <button class="w-full text-left px-4 py-3 font-semibold bg-green-800 text-yellow-300 focus:outline-none toggle-faq">
+        Is Bihar safe for tourist ?
+      </button>
+      <div class="hidden px-4 py-3 bg-green-900 text-blue-100">
+     Obviously yes, there are many kind people you can ask for help.
+      </div>
+    </div>
+
+  </div>
+</section>
+
+       <footer class="bg-black p-4 text-center text-sm text-lime-300 old-style-border w-full">
+      <p>&copy; 2025 Ishaan | All rights reserved</p>
+    </footer>
+
+<script>
+  const btn = document.getElementById('backToTop');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 100) {
+      btn.classList.remove('hidden');
+      btn.classList.add('block');
+    } else {
+      btn.classList.remove('block');
+      btn.classList.add('hidden');
+    }
+  });
+  document.querySelectorAll('.toggle-faq').forEach(button => {
+    button.addEventListener('click', () => {
+      const answer = button.nextElementSibling;
+      answer.classList.toggle('hidden');
+    });
+  });
+  function animateCounter(id, target, duration = 2000) {
+    const el = document.getElementById(id);
+    let start = 0;
+    const increment = target / (duration / 16);
+
+    function update() {
+      start += increment;
+      if (start < target) {
+        el.textContent = Math.floor(start);
+        requestAnimationFrame(update);
+      } else {
+        el.textContent = target;
+      }
+    }
+    update();
+  }
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        animateCounter('hoursCounter', 232);
+        observer.disconnect();
+      }
+    });
+  });
+
+  observer.observe(document.getElementById('hoursCounter'));
+</script>
+
+</body>
+</html>
